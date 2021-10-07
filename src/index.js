@@ -10,7 +10,6 @@ YTSearch({key: API_KEY, term: 'BTS'}, function(data) {
     console.log(data);
 });
 
-// Create a component.
 const App = () => {
     return (
         <div>
@@ -19,5 +18,4 @@ const App = () => {
     );
 }
 
-// Put HTML in the DOM.
 ReactDOM.render(<App />, document.querySelector('.container'));
